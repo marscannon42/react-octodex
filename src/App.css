@@ -18,6 +18,12 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
-.cats {
-  color:red;
+
+.cat-container {
+  background-color: lightgray;
+}
+
+.cat {
+  padding:0em;
+  margin:1em;
 }

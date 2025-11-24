@@ -12,71 +12,70 @@ import dinotocat from "./images/dinotocat.png";
 function Header() {
   return (
     <>
-    <section className="cats">
-      <img
-        src={sponsortocat}
-        width="300"
-        height="300"
-        className="cat"
-        alt="fintech octodex cat"
-      />
-      <img
-        src={boxertocat}
-        width="300"
-        height="300"
-        className="cat"
-        alt="boxertocat octodex cat"
-      />
-      <img
-        src={hula_loop_cat}
-        width="300"
-        height="300"
-        className="cat"
-        alt="hula loop cat octodex cat"
-      />
-      <img
-      src={puddle_jumper_cat}
-      width="300"
-      height="300"
-      className="cat"
-      alt="puddle jumper cat octodex cat"
-    />
-    <img
-    src={scubatocat}
-    width="300"
-    height="300"
-    className="cat"
-    alt="scubatocat octodex cat"
-  />
-  <img 
-  src={universetocat}
-  width="300"
-  height="300"
-  className="cat"
-  alt="securitocat octodex cat"
-
-/>
-<img
-src={vinyltocat}
-width="300"
-height="300"
-className="cat"
-alt="vinyltocat octodex cat"
-/>
-<img
-src={surftocat}
-width="300"
-height="300"
-className="cat"
-alt="surftocat octodex cat"
-/>
-<img
-src={dinotocat}
-width="300"
-height="300"
-className="cat"
-alt="dintocat octodex cat"
-/>
+      <section className="cat-container">
+        <img
+          src={sponsortocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="fintech octodex cat"
+        />
+        <img
+          src={boxertocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="boxertocat octodex cat"
+        />
+        <img
+          src={hula_loop_cat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="hula loop cat octodex cat"
+        />
+        <img
+          src={puddle_jumper_cat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="puddle jumper cat octodex cat"
+        />
+        <img
+          src={scubatocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="scubatocat octodex cat"
+        />
+        <img
+          src={universetocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="securitocat octodex cat"
+        />
+        <img
+          src={vinyltocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="vinyltocat octodex cat"
+        />
+        <img
+          src={surftocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="surftocat octodex cat"
+        />
+        <img
+          src={dinotocat}
+          width="300"
+          height="300"
+          className="cat"
+          alt="dintocat octodex cat"
+        />
       </section>
     </>
   );
