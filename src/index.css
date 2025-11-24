@@ -4,7 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: white;
 }
 
 code {
@@ -28,11 +28,11 @@ code {
 }
 
 .nav-title {
-  display:flex;
-  justify-content: flex-start;
+display:flex;
   padding:0.5em;
   color: white;
   text-decoration: none;
+  margin-left:-15em;
 }
 
 .title-page {

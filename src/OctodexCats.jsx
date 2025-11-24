@@ -1,10 +1,10 @@
 import React from "react";
-import fintech_cat from "./images/fintech_cat.jpg";
+import sponsortocat from "./images/sponsortocat.png";
 import boxertocat from "./images/boxertocat.jpg";
 import hula_loop_cat from "./images/hula_loop_cat.gif";
 import puddle_jumper_cat from "./images/puddle_jumper_cat.jpg";
 import scubatocat from "./images/scubatocat.png";
-import securitocat from "./images/securitocat.png";
+import universetocat from "./images/universetocat.png";
 import surftocat from "./images/surftocat.png";
 import vinyltocat from "./images/vinyltocat.png";
 import dinotocat from "./images/dinotocat.png";
@@ -14,7 +14,7 @@ function Header() {
     <>
     <section className="cats">
       <img
-        src={fintech_cat}
+        src={sponsortocat}
         width="300"
         height="300"
         className="cat"
@@ -49,7 +49,7 @@ function Header() {
     alt="scubatocat octodex cat"
   />
   <img 
-  src={securitocat}
+  src={universetocat}
   width="300"
   height="300"
   className="cat"

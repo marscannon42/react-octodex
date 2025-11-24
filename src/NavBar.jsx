@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <>
-      <nav class=" text-gray" className="nav-title">
+      <nav className="nav-title">
         <a href="https://octodex.github.com/" className="nav-title">
           <svg
             height="32"
