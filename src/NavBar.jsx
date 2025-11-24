@@ -3,8 +3,11 @@ import React from "react";
 function NavBar() {
   return (
     <>
-      <nav className="nav-title">
-        <a href="https://octodex.github.com/" className="nav-title">
+      <nav>
+        <a
+          href="https://octodex.github.com/"
+          className="nav-title"
+        >
           <svg
             height="32"
             class="octicon octicon-mark-github mr-2"
@@ -20,10 +23,8 @@ function NavBar() {
             ></path>
           </svg>
           <section className="title-page">
-  <div class="mb-1">Octodex</div>
+            <div class="mb-1">Octodex</div>
           </section>
-
-        
         </a>
       </nav>
     </>
