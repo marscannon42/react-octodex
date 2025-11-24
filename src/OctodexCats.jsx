@@ -12,7 +12,11 @@ import dinotocat from "./images/dinotocat.png";
 function Header() {
   return (
     <>
+     
       <section className="cat-container">
+         <section className="best-cats-header">
+        <div className="best-cats-title">Best Octodex Cats</div>
+      </section>
         <img
           src={sponsortocat}
           width="300"
