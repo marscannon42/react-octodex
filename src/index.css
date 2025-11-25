@@ -14,14 +14,17 @@ body {
 
 .navbar-start,
 .navbar-end {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25em;
   font-weight: bold;
-  color:black;
+  color: black;
 }
 
 .navbar {
-  display:flex;
-  justify-self: space-around;
-  font-size:1em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
 }
 
 a {
@@ -48,6 +51,15 @@ a {
 }
 
 .cat-info {
-  color:black;
-  font-size:0.5em;
+  color: black;
+  font-size: 0.5em;
 }
+
+/* .title-section {
+  font-size:2em;
+  color:black;
+}
+
+.favorite-cats {
+  color:black;
+} */

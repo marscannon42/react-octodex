@@ -3,6 +3,10 @@ import React, { Component } from "react";
 class Cat extends Component {
   render() {
     return (
+      <>
+      <section className="title-section">
+        <title className="favorite-cats">Favorite Octodex Cats</title>
+      </section>
       <li>
         <img
           className="img-style"
@@ -14,6 +18,7 @@ class Cat extends Component {
           <h2 className="name">{this.props.name}</h2>
         </section>
       </li>
+      </>
     );
   }
 }

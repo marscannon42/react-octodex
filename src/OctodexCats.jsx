@@ -71,19 +71,21 @@ function OctodexCats() {
   ];
 
   return (
-    <ul className="photo-container">
-      {Cats.map((cat, key) => {
-        return (
-          <Cat
-            number={cat.number}
-            name={cat.name}
-            imageUrl={cat.imageUrl}
-            imageAlt={cat.imageAlt}
-            key={key}
-          />
-        );
-      })}
-    </ul>
+    <>
+      <ul className="photo-container">
+        {Cats.map((cat, key) => {
+          return (
+            <Cat
+              number={cat.number}
+              name={cat.name}
+              imageUrl={cat.imageUrl}
+              imageAlt={cat.imageAlt}
+              key={key}
+            />
+          );
+        })}
+      </ul>
+    </>
   );
 }
 
