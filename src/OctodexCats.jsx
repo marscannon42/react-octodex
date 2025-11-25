@@ -9,80 +9,82 @@ import surftocat from "./images/surftocat.png";
 import vinyltocat from "./images/vinyltocat.png";
 import dinotocat from "./images/dinotocat.png";
 
-function Header() {
+import Cat from "./Cat";
+
+function OctodexCats() {
+  const Cats = [
+    //3rd filmtocats
+    {
+      number: "#146:",
+      name: "Sponsortocat",
+      imageUrl: sponsortocat,
+      imageAlt: "Sponsortocat octodex cat",
+    },
+    {
+      number: "#145:",
+      name: "Boxertocat",
+      imageUrl: boxertocat,
+      imageAlt: "Hula Loop Cat octodex cat",
+    },
+    {
+      number: "#144:",
+      name: "Hula Loop Cat",
+      imageUrl: hula_loop_cat,
+      imageAlt: "Hula Loop Cat octodex cat",
+    },
+    {
+      number: "#143:",
+      name: "Puddle Jumper Cat",
+      imageUrl: puddle_jumper_cat,
+      imageAlt: "Puddle Jumper Cat octodex cat",
+    },
+    {
+      number: "#142:",
+      name: "Scubatocat",
+      imageUrl: scubatocat,
+      imageAlt: "Scubatocat octodex cat",
+    },
+    {
+      number: "#140:",
+      name: "Universetocat",
+      imageUrl: universetocat,
+      imageAlt: "Universe octodex cat",
+    },
+    {
+      number: "#140:",
+      name: "Surftocat",
+      imageUrl: surftocat,
+      imageAlt: "Surftocat octodex cat",
+    },
+    {
+      number: "#139:",
+      name: "Vinyltocat",
+      imageUrl: vinyltocat,
+      imageAlt: "Vinyltocat octodex cat",
+    },
+    {
+      number: "#138:",
+      name: "Dinotocat",
+      imageUrl: dinotocat,
+      imageAlt: "Dinotocat octodex cat",
+    },
+  ];
+
   return (
-    <>
-     
-      <section className="cat-container">
-         <section className="best-cats-header">
-        <div className="best-cats-title">Best Octodex Cats</div>
-      </section>
-        <img
-          src={sponsortocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="fintech octodex cat"
-        />
-        <img
-          src={boxertocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="boxertocat octodex cat"
-        />
-        <img
-          src={hula_loop_cat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="hula loop cat octodex cat"
-        />
-        <img
-          src={puddle_jumper_cat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="puddle jumper cat octodex cat"
-        />
-        <img
-          src={scubatocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="scubatocat octodex cat"
-        />
-        <img
-          src={universetocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="securitocat octodex cat"
-        />
-        <img
-          src={vinyltocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="vinyltocat octodex cat"
-        />
-        <img
-          src={surftocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="surftocat octodex cat"
-        />
-        <img
-          src={dinotocat}
-          width="300"
-          height="300"
-          className="cat"
-          alt="dintocat octodex cat"
-        />
-      </section>
-    </>
+    <ul className="photo-container">
+      {Cats.map((cat, key) => {
+        return (
+          <Cat
+            number={cat.number}
+            name={cat.name}
+            imageUrl={cat.imageUrl}
+            imageAlt={cat.imageAlt}
+            key={key}
+          />
+        );
+      })}
+    </ul>
   );
 }
 
-export default Header;
+export default OctodexCats;
